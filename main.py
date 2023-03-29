@@ -97,7 +97,7 @@ for src in [1]:
                    
                     lbl = orrd.iloc[ii]['label']
                     file_number = orrd.iloc[ii]['name']
-                    file_dirs = 'C:/Users/lucas/Documents/Doutorado/WorkSpace/DADOS CWRU/01_Raw/' + file_number + '.mat'
+                    file_dirs = './DADOS CWRU/01_Raw/' + file_number + '.mat'
                     data = loadmat(file_dirs)
                     for i in data:
                         # taking only the DE list of values
